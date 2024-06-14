@@ -14,7 +14,6 @@
 import {
 	DoubleSide,
 	sRGBEncoding,
-	LinearEncoding,
 	LinearFilter,
 	LinearToneMapping,
 	Mesh,
