@@ -24,8 +24,7 @@ import {
 	PlaneBufferGeometry,
 	Scene,
 	ShaderMaterial,
-	WebGLRenderTargetCube,
-	sRGBEncoding
+	WebGLRenderTargetCube
 } from "./three.module.js";
 
 var PMREMGenerator = ( function () {
