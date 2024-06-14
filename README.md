@@ -15,10 +15,7 @@ Welcome to the 3D Car Visualization project! This interactive web application ut
 
 ### Prerequisites
 
-You will need the following tools installed on your system:
-
-- Node.js and npm
-- A modern web browser that supports WebGL
+You will need a modern web browser that supports WebGL.
 
 ### Installation
 
@@ -26,30 +23,15 @@ You will need the following tools installed on your system:
    ```bash
    git clone https://github.com/shliamin/JS-3D-Car.git
    cd JS-3D-Car
-   ```
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running the Application
-
-To get the 3D Car Visualization up and running on your local machine, follow these steps:
-
-1. **Start the Development Server**:
-   Open a terminal at the project root and run the following command to start the Webpack development server:
-   ```bash
-   npm start
-   ```
-
-   This command compiles the application and hosts it on a local server. Once the server is running, open your web browser and navigate to:
-   http://localhost:8080
 
 ### Usage
 
 The 3D Car Visualization application provides interactive features that allow you to explore the 3D model extensively:
 
-- **Rotate**: Click and drag your mouse across the screen to rotate the view of the car.
-- **Zoom**: Use your mouse wheel or pinch gestures on touch devices to zoom in and out.
-- **Model Interaction**: Various UI controls may be available to change parts of the car, switch materials, or toggle additional visual effects.
+- Move Forward: Press the up arrow key (↑) to move the car forward.
+- Move Backward: Press the down arrow key (↓) to move the car backward.
+- Turn Left: Press the left arrow key (←) to turn the car left.
+- Turn Right: Press the right arrow key (→) to turn the car right.
 
+
+Enjoy exploring the 3D car model!
