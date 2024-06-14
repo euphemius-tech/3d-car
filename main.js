@@ -1,10 +1,10 @@
-import * as THREE from '../build/three.module.js';
-import Stats from '../build/stats.module.js';
-import { GLTFLoader } from '../build/GLTFLoader.js';
-import {PMREMGenerator} from '../build/PMREMGenerator.js';
-import { DRACOLoader } from '../build/DRACOLoader.js';
-import { CarControls } from '../build/CarControls.js';
-import { PMREMCubeUVPacker } from '../build/PMREMCubeUVPacker.js';
+import * as THREE from './build/three.module.js';
+import Stats from './build/stats.module.js';
+import { GLTFLoader } from './build/GLTFLoader.js';
+import { PMREMGenerator } from './build/PMREMGenerator.js';
+import { DRACOLoader } from './build/DRACOLoader.js';
+import { CarControls } from './build/CarControls.js';
+import { PMREMCubeUVPacker } from './build/PMREMCubeUVPacker.js';
 
 var camera, scene, renderer, stats, carModel, materialsLib, envMap;
 var bodyMatSelect = document.getElementById( 'body-mat' );
