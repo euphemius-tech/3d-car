@@ -43,16 +43,9 @@ function init() {
     loader.load(urls, function (texture) {
         scene.background = texture;
 
-        let pmremGenerator = new PMREMGenerator(texture);
-        pmremGenerator.compileEquirectangularShader(renderer);
-
-        let pmremCubeUVPacker = new PMREMCubeUVPacker(pmremGenerator.cubeLods);
-        pmremCubeUVPacker.update(renderer);
-
-        envMap = pmremCubeUVPacker.CubeUVRenderTarget.texture;
-
+        let pmremGenerator = new PMREMGenerator(renderer);
+        envMap = pmremGenerator.fromCubemap(texture).texture;
         pmremGenerator.dispose();
-        pmremCubeUVPacker.dispose();
 
         initCar();
         initMaterials();
