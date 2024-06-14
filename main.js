@@ -72,7 +72,7 @@ function init() {
     scene.add(grid);
 
     renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.gammaOutput = true;
+    renderer.outputEncoding = THREE.sRGBEncoding;
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
     container.appendChild(renderer.domElement);
