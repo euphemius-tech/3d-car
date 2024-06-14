@@ -13,7 +13,7 @@
 
 import {
 	DoubleSide,
-	GammaEncoding,
+	sRGBEncoding,
 	LinearEncoding,
 	LinearFilter,
 	LinearToneMapping,
